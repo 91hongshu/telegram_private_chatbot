@@ -33,21 +33,21 @@ const adminStatusCache = new Map();
 
 // --- 本地题库 (15条) ---
 const LOCAL_QUESTIONS = [
-    {"question": "冰融化后会变成什么？", "correct_answer": "水", "incorrect_answers": ["石头", "木头", "火"]},
-    {"question": "正常人有几只眼睛？", "correct_answer": "2", "incorrect_answers": ["1", "3", "4"]},
-    {"question": "以下哪个属于水果？", "correct_answer": "香蕉", "incorrect_answers": ["白菜", "猪肉", "大米"]},
-    {"question": "1 加 2 等于几？", "correct_answer": "3", "incorrect_answers": ["2", "4", "5"]},
-    {"question": "5 减 2 等于几？", "correct_answer": "3", "incorrect_answers": ["1", "2", "4"]},
-    {"question": "2 乘以 3 等于几？", "correct_answer": "6", "incorrect_answers": ["4", "5", "7"]},
-    {"question": "10 加 5 等于几？", "correct_answer": "15", "incorrect_answers": ["10", "12", "20"]},
-    {"question": "8 减 4 等于几？", "correct_answer": "4", "incorrect_answers": ["2", "3", "5"]},
-    {"question": "在天上飞的交通工具是什么？", "correct_answer": "飞机", "incorrect_answers": ["汽车", "轮船", "自行车"]},
-    {"question": "星期一的后面是星期几？", "correct_answer": "星期二", "incorrect_answers": ["星期日", "星期五", "星期三"]},
-    {"question": "鱼通常生活在哪里？", "correct_answer": "水里", "incorrect_answers": ["树上", "土里", "火里"]},
-    {"question": "我们用什么器官来听声音？", "correct_answer": "耳朵", "incorrect_answers": ["眼睛", "鼻子", "嘴巴"]},
-    {"question": "晴朗的天空通常是什么颜色的？", "correct_answer": "蓝色", "incorrect_answers": ["绿色", "红色", "紫色"]},
-    {"question": "太阳从哪个方向升起？", "correct_answer": "东方", "incorrect_answers": ["西方", "南方", "北方"]},
-    {"question": "小狗发出的叫声通常是？", "correct_answer": "汪汪", "incorrect_answers": ["喵喵", "咩咩", "呱呱"]}
+    {"question": "一年一共有几个季度？", "correct_answer": "4", "incorrect_answers": ["2", "3", "12"]},
+    {"question": "猫看见老鼠通常会做什么？", "correct_answer": "抓老鼠", "incorrect_answers": ["逃跑", "喂老鼠", "跳舞"]},
+    {"question": "把水加热到沸腾后会变成什么？", "correct_answer": "水蒸气", "incorrect_answers": ["冰块", "石头", "牛奶"]},
+    {"question": "以下哪种动物会飞？", "correct_answer": "小鸟", "incorrect_answers": ["小狗", "小猫", "金鱼"]},
+    {"question": "汽车一共有几个轮子？", "correct_answer": "4", "incorrect_answers": ["2", "3", "5"]},
+    {"question": "用什么工具可以剪断绳子？", "correct_answer": "剪刀", "incorrect_answers": ["筷子", "梳子", "镜子"]},
+    {"question": "太阳落山后，天空会变得怎么样？", "correct_answer": "变黑", "incorrect_answers": ["变亮", "变红", "变绿"]},
+    {"question": "我们通常用什么来装水喝？", "correct_answer": "杯子", "incorrect_answers": ["帽子", "鞋子", "钱包"]},
+    {"question": "香蕉成熟后通常是什么颜色的？", "correct_answer": "黄色", "incorrect_answers": ["蓝色", "黑色", "紫色"]},
+    {"question": "苹果、西瓜、葡萄都属于什么？", "correct_answer": "水果", "incorrect_answers": ["蔬菜", "海鲜", "文具"]},
+    {"question": "睡觉时我们通常会把眼睛怎么样？", "correct_answer": "闭上", "incorrect_answers": ["睁大", "发光", "流泪"]},
+    {"question": "下雨时出门应该带什么？", "correct_answer": "雨伞", "incorrect_answers": ["围巾", "墨镜", "手电筒"]},
+    {"question": "数字 8 的前面一个数字是几？", "correct_answer": "7", "incorrect_answers": ["6", "9", "10"]},
+    {"question": "冰块摸起来是什么感觉？", "correct_answer": "冰凉", "incorrect_answers": ["发烫", "柔软", "干燥"]},
+    {"question": "鸟类通常是用什么来飞行的？", "correct_answer": "翅膀", "incorrect_answers": ["尾巴", "脚掌", "耳朵"]}
 ];
 
 // --- 辅助工具函数 ---
